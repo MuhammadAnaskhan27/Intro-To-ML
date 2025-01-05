@@ -6,3 +6,5 @@ churn_df = pd.read_csv(url)
 
 # Handle Missing Values
 churn_df.fillna(churn_df.median(),inplace=True)
+
+# Data Preprocessing
